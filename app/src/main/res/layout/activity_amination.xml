@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/bt_amination_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnclick"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="展示图片"/>
+    <Button
+        android:id="@+id/bt_amination_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnclick"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:text="隐藏图片"/>
+
+    <Button
+        android:id="@+id/bt_amination_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnclick"
+        android:background="@drawable/btn_ripple"
+        android:text="动画跳转"
+        />
+
+    <Button
+        android:id="@+id/bt_amination_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnclick"
+        android:text="带元素共享的跳转"
+        />
+
+    <ImageView
+        android:id="@+id/iv_amination"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/koala"
+        android:scaleType="fitXY"/>
+
+
+</LinearLayout>
